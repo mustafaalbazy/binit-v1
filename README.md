@@ -5,9 +5,9 @@
 ## How to use ?
 
 1. Clone this repo into your server for ex in /root 
-2. $ cd cloned_repo
-3. $ chmod +x binit.sh
-3. $ ./binit.sh
+2. $ `cd cloned_repo`
+3. $ `chmod +x binit.sh`
+3. $ `./binit.sh`
 
 $ = stand for ssh terminal
 
