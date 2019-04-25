@@ -1,10 +1,10 @@
 # binit
 
-**BinIt** help cPanel system administrators to clean servers from old and unused logs, backups and much more in simple CLI command (by ssh terminal).
+**BinIt** help cPanel system administrators to clean servers from old heavy and/or unused logs, migration cPanel user packages and much more in a simple CLI command (by ssh terminal).
 
 ## How to use ?
 
-1. Clone this repo into your server for ex in /root 
+1. Clone this repo into your server, for example in /root 
 2. $ `cd cloned_repo`
 3. $ `chmod +x binit.sh`
 3. $ `./binit.sh`
@@ -13,15 +13,15 @@ $ = stand for ssh terminal
 
 
 ## What exactly this tool do ?
-when you start this tool, it will clean the followin
+When you start this tool, it will clean the following
 
-* clean domain logs in /usr/local/apache/domlogs/
-* clean Apache HTTPd logs in /usr/local/apache/logs/
-* delete any cpmove-*.tar.gz in /usr/local/apache/htdocs/ and /home/ and /home/cprestore
-* clean old and unused logs in /var/log/
-* refresh eaccelerator chached files in /var/cache/eaccelerator
-* clean /tmp and /var/spool/exim
-* restart related services 
+* Clean domain logs in /usr/local/apache/domlogs
+* Clean Apache HTTPd logs in /usr/local/apache/logs
+* Delete any cpmove-*.tar.gz in /usr/local/apache/htdocs/ and /home/ and /home/cprestore
+* Clean old and unused logs in /var/log
+* Refresh eaccelerator chached files in /var/cache/eaccelerator
+* Clean /tmp and /var/spool/exim
+* Restart related services 
 
 ## What license ?
 GNU GENERAL PUBLIC LICENSE v3
